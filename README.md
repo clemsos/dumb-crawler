@@ -4,7 +4,8 @@ A simple crawler to retrieve keywords from all links contained in a webpage
 
 HOW TO USE IT
 ----
-     To extract keywords from a file : python termtopia.py file.html
+To extract keywords from a file : 
+     python termtopia.py file.html
  
 
 HOW IT WORKS
