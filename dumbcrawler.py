@@ -5,7 +5,8 @@
 Retrieve text and extract keywords from all links contained in a webpage
 Return json format
 
-     To extract keywords from a file : python termtopia.py file.html
+     To extract keywords from a file : 
+     $ python dumbcrawler.py file.html
  
 """
 # reauire JAVA HOME and jdk7

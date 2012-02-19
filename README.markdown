@@ -15,3 +15,8 @@ HOW IT WORKS
   3. extract keywords from content (using topia.termextract)
   4. match all keywords (using difflib) 
   5. using (simple json)
+
+
+Thanks
+---
+Python-Boilerpipe : https://github.com/misja/python-boilerpipe
