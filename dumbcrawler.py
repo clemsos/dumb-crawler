@@ -58,7 +58,7 @@ def retrieveTitle(url):
 
 
 # start the JVM with the good classpaths using python-boilerpipe
-classpath = '/home/clement/Sites/makesense/python-boilerpipe/src/boilerpipe/data/boilerpipe-1.2.0/boilerpipe-1.2.0.jar:/home/clement/Sites/makesense/python-boilerpipe/src/boilerpipe/data/boilerpipe-1.2.0/lib/nekohtml-1.9.13.jar:/home/clement/Sites/makesense/python-boilerpipe/src/boilerpipe/data/boilerpipe-1.2.0/lib/xerces-2.9.1.jar'
+classpath = 'python-boilerpipe/src/boilerpipe/data/boilerpipe-1.2.0/boilerpipe-1.2.0.jar:python-boilerpipe/src/boilerpipe/data/boilerpipe-1.2.0/lib/nekohtml-1.9.13.jar:python-boilerpipe/src/boilerpipe/data/boilerpipe-1.2.0/lib/xerces-2.9.1.jar'
 
 def startJava():
     jpype.startJVM(jpype.getDefaultJVMPath(), "-Djava.class.path=%s" % classpath)
